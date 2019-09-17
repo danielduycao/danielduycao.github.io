@@ -2,4 +2,10 @@
 
 # Main Features of website
 
-- Portfolio shows off: - Software Projects - Websites - Design work (Google SketchUp) - Music - Photography - Mission
+- Portfolio shows off:
+- Software Projects
+- Websites
+- Design work (Google SketchUp)
+- Music
+- Photography
+- Mission
