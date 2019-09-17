@@ -1,11 +1,9 @@
-## Repo for Daniel Cao's Portfolio
+## This is the portfolio for Daniel Cao
 
-# Main Features of website
+- Website can be viewed at: https://danielduycao.github.io.
+- Created using Massively template
 
-- Portfolio shows off:
-- Software Projects
-- Websites
-- Design work (Google SketchUp)
-- Music
-- Photography
-- Mission
+## Contains:
+
+- Autobiography
+- Software Dev Projects
