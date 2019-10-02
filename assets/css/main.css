@@ -2518,11 +2518,19 @@ input, select, textarea {
 		margin-left: 0;
 		padding: 25px 0 0 0;
 	}
+
 }
+	@media screen and (max-width: 430px) {
+		h1 {
+			font-size: 2.75em;
+		}
+	}
 @media screen and (max-width: 350px) {
 	.skills {
 		width: 50%;
 		margin-left: 0;
 		padding: 25px 0 0 0;
 	}
+
+
 }
