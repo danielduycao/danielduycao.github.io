@@ -2476,6 +2476,7 @@ input, select, textarea {
 
 .work {
 	font-size: 2.5em;
+	line-height: 1em;
 }
 
 .line {
@@ -2522,7 +2523,7 @@ input, select, textarea {
 }
 	@media screen and (max-width: 430px) {
 		h1 {
-			font-size: 2.75em;
+			line-height: 1em;
 		}
 	}
 @media screen and (max-width: 350px) {
@@ -2531,6 +2532,4 @@ input, select, textarea {
 		margin-left: 0;
 		padding: 25px 0 0 0;
 	}
-
-
 }
