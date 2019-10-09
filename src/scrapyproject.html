@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Daniel Cao Projects</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="../assets/css/main.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/projects.css" />
+    <!-- <link rel="stylesheet" href="" /> -->
+  </head>
+  <body>
+    <!-- NAV BAR SECTION -->
+    <nav
+      id="nav"
+      class="navbar fixed-top navbar-expand-lg navbar-dark custom-nav"
+    >
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/brand.png" width="30" height="30" alt="" />
+          </a>
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ui_ux.html">UI/UX Designs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photography.html">Photography Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- NAV BAR SECTION -->
+
+    <!-- List of Projects! -->
+    <div class="container-fluid project-title">
+      <!-- <h1 class="text-center" style="font-size: 8em;margin-bottom: 0.5em;">
+        My Projects
+      </h1> -->
+      <div class="container">
+        <div class="text-center" style="margin-top: 5em;margin-bottom: 1em;">
+          <h1 style="font-size: 4em;">Crime Finder CLI API</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img src="../images/scrapylogo.png" width="500" alt="" />
+        </div>
+        <div class="container text-center">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              During my internship at Securus Technologies Inc., I developed
+              this CLI webscraper that contributes to the R&D software
+              department. This project revolves around a webscraping spider
+              using Python 3 and the Scrapy framework. The purpose of this web
+              scraper is to gather crime information in a particular area of
+              interest provided by a latitude and longitude coordinate. The
+              webscraper then uses a crime map api called Spotcrime to gather
+              crimes near the coordinates. The different types of crimes
+              include:
+              <div class="text-left" style="margin-top: 1em;">
+                <ul>
+                  <li>Arrest</li>
+                  <li>Arson</li>
+                  <li>Assault</li>
+                  <li>Burglary</li>
+                  <li>Robbery</li>
+                  <li>Shooting</li>
+                  <li>Theft</li>
+                  <li>Vandalism</li>
+                  <li>Other</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img
+            src="../images/spotcrimeapi.png"
+            width="500"
+            style="margin-top: 1em;"
+            alt=""
+          />
+        </div>
+        <div class="text-center">
+          <h1 style="font-size: 2em;margin-top:1em;">Spotcrime API</h1>
+        </div>
+        <div class="container text-center">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              SpotCrime is a crime map api that takes in coordinates and shows
+              crimes near the point of interest. Crime data is claimed to be
+              gathered from local agencies such as the Houston Police Department
+              or the University of Houston Police department.
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img
+            src="../images/spotcrimecli.png"
+            width="500"
+            style="margin-top: 2em;"
+            alt=""
+          />
+        </div>
+        <div class="text-center">
+          <h1 style="font-size: 2em;margin-top:1em;">Instructions</h1>
+        </div>
+        <div class="container text-center">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              The Crime Spider can be ran from the CLI. To run the file, the
+              program takes in two arguments, a latitude and longitude value. If
+              insufficient coordinates are provided, then the spider will not
+              run.
+            </div>
+          </div>
+        </div>
+        <div class="container text-center" style="margin-top: 1em;">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              <strong>General syntax: </strong>“python crimespider.py ‘lat’
+              ‘lon’ ”
+            </div>
+          </div>
+        </div>
+        <div class="container text-center" style="margin-top: 1em;">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              <strong>Sample syntax: </strong>“python crimespider.py 34.436546
+              27.654654”
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img
+            src="../images/spotcrimejson.png"
+            width="500"
+            style="margin-top: 2em;"
+            alt=""
+          />
+        </div>
+        <div class="text-center">
+          <h1 style="font-size: 2em;margin-top:1em;">Output</h1>
+        </div>
+        <div class="container text-center">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              The output of the result is in json format. The following
+              information is returned:
+              <div class="text-left">
+                <ul>
+                  <li>Latitude coordinate</li>
+                  <li>Longitude coordinate</li>
+                  <li>Offense type</li>
+                  <li>Adress</li>
+                  <li>Date</li>
+                  <li>Time</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <img
+            src="../images/scrapypipeline.png"
+            width="500"
+            style="margin-top: 2em;"
+            alt=""
+          />
+        </div>
+        <div class="text-center">
+          <h1 style="font-size: 2em;margin-top:1em;">Summary</h1>
+        </div>
+        <div class="container text-center">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              <p>
+                The crime information provided by the webscraper could greatly
+                benefit the creation of zones of interest for offenders. The
+                data collected by this program was purposed to help determine
+                which areas had high crime density. The data can also show what
+                types of crimes are more common in particular areas. The web
+                crawler can be designed to pipeline a process while crawling,
+                meaning the json data can be store in a database or an elastic
+                cluster using SQLite or elasticscrapy respectively. A database
+                can be populated periodically using a scheduled scraper. This
+                information could then be used to graph trends or can be used
+                for even machine learning. One limitation of this webscraper is
+                that it is using the Spotcrime map api's html to gather the
+                information. If the Spotcrime api changes its source code, then
+                the webcrawler will be ineffective.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div
+            class="row justify-content-center"
+            style="margin-top:1em;margin-bottom:2em;"
+          >
+            <a href="#" class="btn btn-primary">Back to top</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="" async defer></script> -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
